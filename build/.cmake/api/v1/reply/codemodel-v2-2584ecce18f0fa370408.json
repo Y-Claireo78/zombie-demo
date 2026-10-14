@@ -1,0 +1,351 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::GL::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-OpenGL__GL-Debug-cf339ab10392ce4b0bde.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenGL::GLU::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-OpenGL__GLU-Debug-9dcc9461487280f67bd9.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-Debug-44e5216981c9c5bd2aeb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-Debug-efc359c6b59dd8489044.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "src/Framework",
+					"jsonFile" : "directory-src.Framework-Debug-e0bd80b7e28463f642ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Framework",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/GameObject",
+					"jsonFile" : "directory-src.GameObject-Debug-491bff6dbbaa5234e40b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/UI",
+					"jsonFile" : "directory-src.UI-Debug-df92d8c90c20e95a79a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/UI",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/Zombies",
+					"jsonFile" : "directory-src.Zombies-Debug-398b2c0b47fe4b8dff8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Zombies",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/Plants",
+					"jsonFile" : "directory-src.Plants-Debug-7439b1465ea27d911f04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Plants",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/Projectiles",
+					"jsonFile" : "directory-src.Projectiles-Debug-dacbe12318df7ea5487f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Projectiles",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/GameWorld",
+					"jsonFile" : "directory-src.GameWorld-Debug-5c6dbbedf7d5a998b2d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameWorld",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "PvZ",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Framework::@bbcc00d4dd4c98727359",
+					"jsonFile" : "target-Framework-Debug-41b68edeba30271c2e4c.json",
+					"name" : "Framework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GameObject::@cf4d02a5657504c132a7",
+					"jsonFile" : "target-GameObject-Debug-c8995f29b28d1d46774f.json",
+					"name" : "GameObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "GameWorld::@2c651ff0fb8a858345be",
+					"jsonFile" : "target-GameWorld-Debug-2f3720a2e3f7561ead0e.json",
+					"name" : "GameWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Plants::@3bf7c4ccd19ab7e04a48",
+					"jsonFile" : "target-Plants-Debug-32bf30061eda878ca52a.json",
+					"name" : "Plants",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Projectiles::@e7d6ec5a84b06afa6a13",
+					"jsonFile" : "target-Projectiles-Debug-b3ba60eca54cacb8fd9d.json",
+					"name" : "Projectiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PvZ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PvZ-Debug-5d39756670ee97ca73c3.json",
+					"name" : "PvZ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-Debug-ad8f32c585e80a7ac072.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UI::@e6812f907734570e2a17",
+					"jsonFile" : "target-UI-Debug-c262a21c3cdade33bab2.json",
+					"name" : "UI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Zombies::@8ec119593c21aab2def0",
+					"jsonFile" : "target-Zombies-Debug-e9d74b1e0455eadc6c11.json",
+					"name" : "Zombies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-Debug-38f7376b6eb922b4b104.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-Debug-4c6b8dd357e05aff1d62.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build",
+		"source" : "C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

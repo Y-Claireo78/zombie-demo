@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/SOIL/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/freeglut/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/src/Framework/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/src/GameObject/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/src/UI/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/src/Zombies/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/src/Plants/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/src/Projectiles/cmake_install.cmake",
+		"C:/Users/A/Desktop/CS100-hw8/i_zombie/attachment/build/src/GameWorld/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

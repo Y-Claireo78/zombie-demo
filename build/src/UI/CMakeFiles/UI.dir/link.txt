@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc ..\..\lib\libUI.a CMakeFiles/UI.dir/UI.cpp.obj CMakeFiles/UI.dir/DeploymentLane.cpp.obj CMakeFiles/UI.dir/Sun.cpp.obj
+D:\mingw64\bin\ranlib.exe ..\..\lib\libUI.a

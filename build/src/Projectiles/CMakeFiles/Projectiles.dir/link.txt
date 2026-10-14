@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc ..\..\lib\libProjectiles.a CMakeFiles/Projectiles.dir/Pea.cpp.obj
+D:\mingw64\bin\ranlib.exe ..\..\lib\libProjectiles.a

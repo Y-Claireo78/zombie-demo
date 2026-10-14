@@ -1,0 +1,2 @@
+D:\mingw64\bin\ar.exe qc ..\..\lib\libPlants.a CMakeFiles/Plants.dir/Plant.cpp.obj CMakeFiles/Plants.dir/Peashooter.cpp.obj CMakeFiles/Plants.dir/Sunflower.cpp.obj CMakeFiles/Plants.dir/WallNut.cpp.obj CMakeFiles/Plants.dir/Repeater.cpp.obj
+D:\mingw64\bin\ranlib.exe ..\..\lib\libPlants.a
